@@ -1,11 +1,12 @@
-import Header from "./Header";
+import Header from "./components/Header";
+import FeedbackItem from "./components/FeedbackItem";
 
 function App() {
   return (
     <>
-      <Header text ='Hello World'/>
+      <Header />
       <div className="conatainer">
-        <h1>My App</h1>
+        <FeedbackItem />
       </div>
     </>
   );
